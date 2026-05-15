@@ -1,0 +1,25 @@
+# EDA / simulation generated files
+*.log
+*.vpd
+*.vcd
+*.fsdb
+*.fst
+*.wlf
+ucli.key
+DVEfiles/
+novas.*
+csrc/
+simv
+simv.*
+simv.daidir/
+
+# Experiment-local generated outputs
+experiments/*/logs/*
+!experiments/*/logs/.gitkeep
+experiments/*/sim/*
+!experiments/*/sim/.gitkeep
+
+# Local editor / OS noise
+.DS_Store
+*~
+*.swp

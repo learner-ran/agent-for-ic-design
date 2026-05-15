@@ -1,0 +1,9 @@
+# Project-local Codex config. User-level ~/.codex/config.toml remains the main source of truth.
+# Keep this file conservative so the workspace can be reused across projects.
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[features]
+multi_agent = true
+shell_snapshot = true
